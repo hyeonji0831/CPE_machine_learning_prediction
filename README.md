@@ -45,13 +45,13 @@ Machine learning models, particularly logistic regression, can effectively predi
         source("R code for Table 1.R")
         ```
     - **Python Notebook:**
-      - Open `Python code for Table 3,4.ipynb` in Jupyter Notebook or Google Colab and run the cells sequentially to perform the analysis and generate the results.
+      - Open `Python code for Table 3,4.ipynb` in Google Colab or Jupyter Notebook and run the cells sequentially to perform the analysis and generate the results.
         
 3. **Additional Installation for Windows Users:**
     - If you are using Windows, you might need to install Rtools to compile packages from source:
       - Download and install Rtools from [CRAN](https://cran.r-project.org/bin/windows/Rtools/).
       - After installation, add Rtools to your system PATH.
-      - 
+        
 ## Code Description
 
 ### R Scripts
@@ -62,9 +62,8 @@ Machine learning models, particularly logistic regression, can effectively predi
 ### Python Notebook
 - **Python code for Table 3,4.ipynb:** Contains the machine learning analysis and model evaluation, including logistic regression and SHAP plots.
 
-
-### Results
-The results from the analysis will be saved in the `results/` directory. This includes:
+## Results
+The results from the analysis were saved in the `results/` directory. This includes:
 
 - ROC-AUC and PR-AUC plots
 - SHAP summary plots
@@ -74,7 +73,7 @@ The results from the analysis will be saved in the `results/` directory. This in
 ## FAQ
 
 ### How can I reproduce the analysis?
-Clone the repository, install the required packages, and follow the instructions in the notebooks and scripts to reproduce the analysis.
+Download dataset, open each R code and python code, and follow the flow to reproduce the analysis.
 
 ### Where can I find the datasets?
 The datasets used in this study are located in the `data/` directory.
