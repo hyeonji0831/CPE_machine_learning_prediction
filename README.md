@@ -2,8 +2,6 @@
 
 This study aims to predict 'CPE or not' by developing machine learning models for the isolation of patients who are suspected of infection.
 
-## Abstract
-
 ### Introduction
 Carbapenemase-producing Enterobacterales (CPE) infections are a significant concern in healthcare settings, particularly in intensive care units (ICUs). Early prediction and isolation of patients colonized with CPE upon admission can help prevent the spread of these infections.
 
@@ -13,8 +11,6 @@ We developed and evaluated various machine learning models to predict CPE coloni
 ### Results
 Logistic regression demonstrated the best performance among the models tested, with notable improvements when using augmented data. Performance metrics, including ROC-AUC and PR-AUC, were used to evaluate the models.
 
-### Conclusion
-Machine learning models, particularly logistic regression, can effectively predict CPE colonization upon ICU admission. These models can aid in early identification and isolation of at-risk patients, potentially reducing the spread of CPE in healthcare settings.
 
 ## Data Description
 
@@ -67,17 +63,16 @@ The results from the analysis were saved in the `results/` directory. This inclu
 
 - ROC-AUC and PR-AUC plots
 - SHAP summary plots
-- Tables generated from the R scripts
 
 
 ## FAQ
 
 ### How can I reproduce the analysis?
-Download dataset, open each R code and python code, and follow the flow to reproduce the analysis.
+Download dataset, open each R scripts and python code, and follow the flow to reproduce the analysis.
 
 ### Where can I find the datasets?
 The datasets used in this study are located in the `data/` directory.
 
 ### Who should I contact for questions?
-For any inquiries, please contact [Your Name] at [Your Email].
+For any inquiries, please contact Yong Kyun Kim at amoureuxyk@naver.com
 
