@@ -8,7 +8,7 @@ This study aims to predict 'CPE or not' by developing machine learning models fo
 Carbapenemase-producing Enterobacterales (CPE) infections are a significant concern in healthcare settings, particularly in intensive care units (ICUs). Early prediction and isolation of patients colonized with CPE upon admission can help prevent the spread of these infections.
 
 ### Methods
-We developed and evaluated various machine learning models to predict CPE colonization using clinical and demographic data from ICU admissions. The models were trained on a dataset from 2022 and validated on a separate dataset from 2023. Data augmentation techniques, such as SMOTE, were applied to address class imbalance.
+We developed and evaluated various machine learning models to predict CPE colonization using clinical and demographic data from ICU admissions. The models were trained on a dataset from 2022 and validated on a separate dataset from 2023. Data augmentation techniques, SMOTE, was applied to address class imbalance.
 
 ### Results
 Logistic regression demonstrated the best performance among the models tested, with notable improvements when using augmented data. Performance metrics, including ROC-AUC and PR-AUC, were used to evaluate the models.
@@ -32,34 +32,9 @@ Machine learning models, particularly logistic regression, can effectively predi
 
 ## Quick Start
 
-### Installation
-1. **Clone the Repository:**
-    ```bash
-    git clone https://github.com/yourusername/CPE_machine_learning_prediction.git
-    cd CPE_machine_learning_prediction
-    ```
-
-2. **Install Required Packages:**
-    - For Python:
-      ```bash
-      pip install -r requirements.txt
-      ```
-    - For R, you can install the required packages directly within your R scripts as shown:
-      ```r
-      install.packages("readxl")
-      install.packages("dplyr")
-      install.packages("tableone")
-      install.packages("officer")
-      install.packages("flextable")
-      install.packages("broom")
-      install.packages("car")
-      install.packages("MASS")
-      install.packages("caret")
-      ```
-
 ### Usage
 1. **Data Preparation:**
-    - Upload your datasets to the `data/` directory in the repository.
+    - Download datasets from the `data/` directory in the repository.
     - Ensure the datasets are named appropriately as referenced in the scripts (e.g., `CPE_training_dataset_2022.xlsx` and `CPE_validation_dataset_2023.xlsx`).
 
 2. **Running the Scripts:**
@@ -71,7 +46,39 @@ Machine learning models, particularly logistic regression, can effectively predi
         ```
     - **Python Notebook:**
       - Open `Python code for Table 3,4.ipynb` in Jupyter Notebook or Google Colab and run the cells sequentially to perform the analysis and generate the results.
+        
+3. **Additional Installation for Windows Users:**
+    - If you are using Windows, you might need to install Rtools to compile packages from source:
+      - Download and install Rtools from [CRAN](https://cran.r-project.org/bin/windows/Rtools/).
+      - After installation, add Rtools to your system PATH.
+      - 
+## Code Description
 
-### Directory Structure
-Here’s an overview of the project structure:
+### R Scripts
+- **R code for Table 1.R:** Generates the first table with descriptive statistics.
+- **R code for Table 2.R:** Creates the second table for the dataset.
+- **R code for supplement 1.R:** Produces supplementary data analysis.
+
+### Python Notebook
+- **Python code for Table 3,4.ipynb:** Contains the machine learning analysis and model evaluation, including logistic regression and SHAP plots.
+
+
+### Results
+The results from the analysis will be saved in the `results/` directory. This includes:
+
+- ROC-AUC and PR-AUC plots
+- SHAP summary plots
+- Tables generated from the R scripts
+
+
+## FAQ
+
+### How can I reproduce the analysis?
+Clone the repository, install the required packages, and follow the instructions in the notebooks and scripts to reproduce the analysis.
+
+### Where can I find the datasets?
+The datasets used in this study are located in the `data/` directory.
+
+### Who should I contact for questions?
+For any inquiries, please contact [Your Name] at [Your Email].
 
