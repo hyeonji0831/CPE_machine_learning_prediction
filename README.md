@@ -15,6 +15,23 @@ This project presents interpretable machine learning models to predict colonizat
 - **Validation**: 2,923 ICU admissions (2023)  
   - CPE+: 233 (8%), CPE–: 2,690 (92%)
 
+## 🤖 Machine Learning Models Used
+
+| Model Name              | Description                         |
+|-------------------------|-------------------------------------|
+| Logistic Regression     | Linear model for binary classification with L2 regularization |
+| Decision Tree           | Tree-based model for interpretable splits |
+| Random Forest           | Ensemble of decision trees using bagging |
+| Extra Trees             | Ensemble method with randomized splits |
+| XGBoost                 | Gradient boosting with regularization (fast and accurate) |
+| LightGBM                | Fast gradient boosting using leaf-wise splits |
+| Gradient Boosting       | Sequential ensemble of weak learners |
+| AdaBoost                | Boosting algorithm combining weak learners iteratively |
+| SVM (RBF)               | Support vector machine with radial basis function kernel |
+| K-Nearest Neighbors     | Distance-based non-parametric classifier |
+
+
+
 ## 🔍 Key Findings
 - **Best Model**: Logistic Regression with SMOTE
   - **Sensitivity**: 0.62
