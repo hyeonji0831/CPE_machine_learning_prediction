@@ -45,7 +45,5 @@ This project presents interpretable machine learning models to predict colonizat
 - `1. Overall_CPE_prediction_code/`: Jupyter notebook for data preprocessing, model training, evaluation, coefficients of logistic regression, and SHAP interpretation.
 - `2. Supplemental_material_2_Generation/`: Comparing the baseline characteristics of the 2022 training cohort and the 2023 validation
 
-> ⚠️ **Note**: The datasets used in this study are not included in the repository due to patient privacy and institutional policies.
-
 ## ✉️ Contact
 For inquiries, contact Yong Kyun Kim (amoureuxyk@naver.com)
